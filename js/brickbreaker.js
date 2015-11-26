@@ -139,7 +139,7 @@ function initArcs() {
 function drawArcs(arcs) {
   //ctx = canvas.getContext('2d');
   centerX = canvas.width / 2 ;
-  centerY = canvas.height* 0.45;
+  centerY = nrows*(brickheight+padding) + nrows*padding + rmult*narcs;
 
   for( n = 0; n < arcs.length; n++) {
     ctx.save();
