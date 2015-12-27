@@ -86,7 +86,7 @@ header .container .row{
     height: 100%;
 }
 
-header .intro-text .name {
+header .intro-text .name{
     color: #34495e;
     display: block;
     text-transform: uppercase;
