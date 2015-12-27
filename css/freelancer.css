@@ -87,12 +87,12 @@ header .container .row{
 }
 
 header .intro-text .name {
+    color: #34495e;
     display: block;
     text-transform: uppercase;
     font-family: "Junction",sans-serif;
     font-size: 2em;
     font-weight: 700;
-    color: #34495e;
 }
 
 header .intro-text {
